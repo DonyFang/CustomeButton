@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D97162671F2873960080480A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97162661F2873960080480A /* main.m */; };
+		D971626A1F2873960080480A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97162691F2873960080480A /* AppDelegate.m */; };
+		D971626D1F2873960080480A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D971626C1F2873960080480A /* ViewController.m */; };
+		D97162701F2873960080480A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D971626E1F2873960080480A /* Main.storyboard */; };
+		D97162721F2873960080480A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97162711F2873960080480A /* Assets.xcassets */; };
+		D97162751F2873960080480A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97162731F2873960080480A /* LaunchScreen.storyboard */; };
+		D97162801F2873970080480A /* CustomeButtomWithCallBackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D971627F1F2873970080480A /* CustomeButtomWithCallBackTests.m */; };
+		D971628B1F2873970080480A /* CustomeButtomWithCallBackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D971628A1F2873970080480A /* CustomeButtomWithCallBackUITests.m */; };
+		D971629A1F2873C30080480A /* CustomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D97162991F2873C30080480A /* CustomeButton.m */; };
+		D971629D1F2879F20080480A /* CustomeDelegateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D971629C1F2879F20080480A /* CustomeDelegateButton.m */; };
+		D97162A01F287D3B0080480A /* CustomeBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D971629F1F287D3B0080480A /* CustomeBlockButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D971627C1F2873970080480A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D971625A1F2873960080480A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97162611F2873960080480A;
+			remoteInfo = CustomeButtomWithCallBack;
+		};
+		D97162871F2873970080480A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D971625A1F2873960080480A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97162611F2873960080480A;
+			remoteInfo = CustomeButtomWithCallBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D97162621F2873960080480A /* CustomeButtomWithCallBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomeButtomWithCallBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97162661F2873960080480A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D97162681F2873960080480A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D97162691F2873960080480A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D971626B1F2873960080480A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D971626C1F2873960080480A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D971626F1F2873960080480A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D97162711F2873960080480A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D97162741F2873960080480A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D97162761F2873960080480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D971627B1F2873970080480A /* CustomeButtomWithCallBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomeButtomWithCallBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D971627F1F2873970080480A /* CustomeButtomWithCallBackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeButtomWithCallBackTests.m; sourceTree = "<group>"; };
+		D97162811F2873970080480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97162861F2873970080480A /* CustomeButtomWithCallBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomeButtomWithCallBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D971628A1F2873970080480A /* CustomeButtomWithCallBackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeButtomWithCallBackUITests.m; sourceTree = "<group>"; };
+		D971628C1F2873970080480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97162981F2873C30080480A /* CustomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeButton.h; sourceTree = "<group>"; };
+		D97162991F2873C30080480A /* CustomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeButton.m; sourceTree = "<group>"; };
+		D971629B1F2879F20080480A /* CustomeDelegateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeDelegateButton.h; sourceTree = "<group>"; };
+		D971629C1F2879F20080480A /* CustomeDelegateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeDelegateButton.m; sourceTree = "<group>"; };
+		D971629E1F287D3B0080480A /* CustomeBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeBlockButton.h; sourceTree = "<group>"; };
+		D971629F1F287D3B0080480A /* CustomeBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeBlockButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D971625F1F2873960080480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162781F2873970080480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162831F2873970080480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D97162591F2873960080480A = {
+			isa = PBXGroup;
+			children = (
+				D97162641F2873960080480A /* CustomeButtomWithCallBack */,
+				D971627E1F2873970080480A /* CustomeButtomWithCallBackTests */,
+				D97162891F2873970080480A /* CustomeButtomWithCallBackUITests */,
+				D97162631F2873960080480A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D97162631F2873960080480A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97162621F2873960080480A /* CustomeButtomWithCallBack.app */,
+				D971627B1F2873970080480A /* CustomeButtomWithCallBackTests.xctest */,
+				D97162861F2873970080480A /* CustomeButtomWithCallBackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D97162641F2873960080480A /* CustomeButtomWithCallBack */ = {
+			isa = PBXGroup;
+			children = (
+				D97162681F2873960080480A /* AppDelegate.h */,
+				D97162691F2873960080480A /* AppDelegate.m */,
+				D971626B1F2873960080480A /* ViewController.h */,
+				D971626C1F2873960080480A /* ViewController.m */,
+				D97162981F2873C30080480A /* CustomeButton.h */,
+				D97162991F2873C30080480A /* CustomeButton.m */,
+				D971629B1F2879F20080480A /* CustomeDelegateButton.h */,
+				D971629C1F2879F20080480A /* CustomeDelegateButton.m */,
+				D971629E1F287D3B0080480A /* CustomeBlockButton.h */,
+				D971629F1F287D3B0080480A /* CustomeBlockButton.m */,
+				D971626E1F2873960080480A /* Main.storyboard */,
+				D97162711F2873960080480A /* Assets.xcassets */,
+				D97162731F2873960080480A /* LaunchScreen.storyboard */,
+				D97162761F2873960080480A /* Info.plist */,
+				D97162651F2873960080480A /* Supporting Files */,
+			);
+			path = CustomeButtomWithCallBack;
+			sourceTree = "<group>";
+		};
+		D97162651F2873960080480A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97162661F2873960080480A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D971627E1F2873970080480A /* CustomeButtomWithCallBackTests */ = {
+			isa = PBXGroup;
+			children = (
+				D971627F1F2873970080480A /* CustomeButtomWithCallBackTests.m */,
+				D97162811F2873970080480A /* Info.plist */,
+			);
+			path = CustomeButtomWithCallBackTests;
+			sourceTree = "<group>";
+		};
+		D97162891F2873970080480A /* CustomeButtomWithCallBackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D971628A1F2873970080480A /* CustomeButtomWithCallBackUITests.m */,
+				D971628C1F2873970080480A /* Info.plist */,
+			);
+			path = CustomeButtomWithCallBackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D97162611F2873960080480A /* CustomeButtomWithCallBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D971628F1F2873970080480A /* Build configuration list for PBXNativeTarget "CustomeButtomWithCallBack" */;
+			buildPhases = (
+				D971625E1F2873960080480A /* Sources */,
+				D971625F1F2873960080480A /* Frameworks */,
+				D97162601F2873960080480A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomeButtomWithCallBack;
+			productName = CustomeButtomWithCallBack;
+			productReference = D97162621F2873960080480A /* CustomeButtomWithCallBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D971627A1F2873970080480A /* CustomeButtomWithCallBackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97162921F2873970080480A /* Build configuration list for PBXNativeTarget "CustomeButtomWithCallBackTests" */;
+			buildPhases = (
+				D97162771F2873970080480A /* Sources */,
+				D97162781F2873970080480A /* Frameworks */,
+				D97162791F2873970080480A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D971627D1F2873970080480A /* PBXTargetDependency */,
+			);
+			name = CustomeButtomWithCallBackTests;
+			productName = CustomeButtomWithCallBackTests;
+			productReference = D971627B1F2873970080480A /* CustomeButtomWithCallBackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D97162851F2873970080480A /* CustomeButtomWithCallBackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97162951F2873970080480A /* Build configuration list for PBXNativeTarget "CustomeButtomWithCallBackUITests" */;
+			buildPhases = (
+				D97162821F2873970080480A /* Sources */,
+				D97162831F2873970080480A /* Frameworks */,
+				D97162841F2873970080480A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97162881F2873970080480A /* PBXTargetDependency */,
+			);
+			name = CustomeButtomWithCallBackUITests;
+			productName = CustomeButtomWithCallBackUITests;
+			productReference = D97162861F2873970080480A /* CustomeButtomWithCallBackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D971625A1F2873960080480A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "方冬冬";
+				TargetAttributes = {
+					D97162611F2873960080480A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D971627A1F2873970080480A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D97162611F2873960080480A;
+					};
+					D97162851F2873970080480A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D97162611F2873960080480A;
+					};
+				};
+			};
+			buildConfigurationList = D971625D1F2873960080480A /* Build configuration list for PBXProject "CustomeButtomWithCallBack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D97162591F2873960080480A;
+			productRefGroup = D97162631F2873960080480A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D97162611F2873960080480A /* CustomeButtomWithCallBack */,
+				D971627A1F2873970080480A /* CustomeButtomWithCallBackTests */,
+				D97162851F2873970080480A /* CustomeButtomWithCallBackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D97162601F2873960080480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97162751F2873960080480A /* LaunchScreen.storyboard in Resources */,
+				D97162721F2873960080480A /* Assets.xcassets in Resources */,
+				D97162701F2873960080480A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162791F2873970080480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162841F2873970080480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D971625E1F2873960080480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971626D1F2873960080480A /* ViewController.m in Sources */,
+				D971626A1F2873960080480A /* AppDelegate.m in Sources */,
+				D97162A01F287D3B0080480A /* CustomeBlockButton.m in Sources */,
+				D971629A1F2873C30080480A /* CustomeButton.m in Sources */,
+				D971629D1F2879F20080480A /* CustomeDelegateButton.m in Sources */,
+				D97162671F2873960080480A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162771F2873970080480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97162801F2873970080480A /* CustomeButtomWithCallBackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162821F2873970080480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971628B1F2873970080480A /* CustomeButtomWithCallBackUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D971627D1F2873970080480A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97162611F2873960080480A /* CustomeButtomWithCallBack */;
+			targetProxy = D971627C1F2873970080480A /* PBXContainerItemProxy */;
+		};
+		D97162881F2873970080480A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97162611F2873960080480A /* CustomeButtomWithCallBack */;
+			targetProxy = D97162871F2873970080480A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D971626E1F2873960080480A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D971626F1F2873960080480A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D97162731F2873960080480A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97162741F2873960080480A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D971628D1F2873970080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D971628E1F2873970080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D97162901F2873970080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomeButtomWithCallBack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.CustomeButtomWithCallBack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D97162911F2873970080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomeButtomWithCallBack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.CustomeButtomWithCallBack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D97162931F2873970080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomeButtomWithCallBackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.CustomeButtomWithCallBackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomeButtomWithCallBack.app/CustomeButtomWithCallBack";
+			};
+			name = Debug;
+		};
+		D97162941F2873970080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomeButtomWithCallBackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.CustomeButtomWithCallBackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomeButtomWithCallBack.app/CustomeButtomWithCallBack";
+			};
+			name = Release;
+		};
+		D97162961F2873970080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomeButtomWithCallBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.CustomeButtomWithCallBackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomeButtomWithCallBack;
+			};
+			name = Debug;
+		};
+		D97162971F2873970080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomeButtomWithCallBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.CustomeButtomWithCallBackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomeButtomWithCallBack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D971625D1F2873960080480A /* Build configuration list for PBXProject "CustomeButtomWithCallBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971628D1F2873970080480A /* Debug */,
+				D971628E1F2873970080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D971628F1F2873970080480A /* Build configuration list for PBXNativeTarget "CustomeButtomWithCallBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97162901F2873970080480A /* Debug */,
+				D97162911F2873970080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D97162921F2873970080480A /* Build configuration list for PBXNativeTarget "CustomeButtomWithCallBackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97162931F2873970080480A /* Debug */,
+				D97162941F2873970080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D97162951F2873970080480A /* Build configuration list for PBXNativeTarget "CustomeButtomWithCallBackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97162961F2873970080480A /* Debug */,
+				D97162971F2873970080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D971625A1F2873960080480A /* Project object */;
+}
